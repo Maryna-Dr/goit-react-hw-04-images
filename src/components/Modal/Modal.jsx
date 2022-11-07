@@ -14,10 +14,8 @@ export default function Modal({ onShow, img }) {
 
   useEffect(() => {
     window.addEventListener('keydown', handleKeydown);
-    console.log(1);
     return () => {
       window.removeEventListener('keydown', handleKeydown);
-      console.log(2);
     };
   });
 
