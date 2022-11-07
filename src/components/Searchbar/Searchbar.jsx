@@ -5,6 +5,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { BiSearchAlt } from 'react-icons/bi';
 
 import css from './Searchbar.module.css';
+// import toastify
 
 export default function Searchbar({ onSubmit }) {
   const [value, setValue] = useState('');
